@@ -9,7 +9,7 @@
 		type="preRenderView"></f:event>
 </f:metadata>
 <h:head>
-	<title>Clientes</title>
+	<title>Productos</title>
 </h:head>
 <body>
 	<h:form>
@@ -17,8 +17,8 @@
 			<p:menuitem value="Regresar" icon="pi pi-home"
 				action="/menu?faces-redirect=true" />
 				
-			<p:menuitem value="Cliente" icon="pi pi-users"
-				action="#{beanSeg.actionMenuCliente()}" />
+			<p:menuitem value="Producto" icon="pi pi-users"
+				action="#{beanSegProducto.actionMenuSegProducto()}" />
 				
 							
 			
@@ -32,7 +32,7 @@
 				</p:menuButton>
 			</f:facet>
 		</p:menubar>
-		<p:staticMessage severity="info" summary="Módulo de clientes"></p:staticMessage>
+		<p:staticMessage severity="info" summary="Módulo Producto"></p:staticMessage>
 	</h:form>
 	<div>
 	</div>

@@ -24,7 +24,7 @@ public class BeanSegCliente implements Serializable {
 
 	private List<Cliente> listaCliente;
 	private Cliente nuevoCliente;
-		private Cliente edicionCliente;
+	private Cliente edicionCliente;
 
 	public BeanSegCliente() {
 
